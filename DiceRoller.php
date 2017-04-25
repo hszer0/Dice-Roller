@@ -23,13 +23,13 @@ class DiceRoller {
         return $this;
     }
 
-    function rollToArray($command = ""){
-        if (!$command) {
+    function rollToArray($subcommand = ""){
+        if (!$subcommand) {
             return [];
-        } elseif (is_numeric($command)) {
-            return [(int)$command];
+        } elseif (is_numeric($subcommand)) {
+            return [(int)$subcommand];
         } else {
-            $commandArray = explode("d", $command);
+            $commandArray = explode("d", $subcommand);
             return iterator_to_array($this->generateDieResults($commandArray[0], $commandArray[1])) ;
         }
     }
