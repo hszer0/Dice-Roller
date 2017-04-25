@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daf391bf-cd82-46f1-b8fa-53fa420e84db" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/diceroller.iml" afterPath="$PROJECT_DIR$/.idea/diceroller.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/DiceRollerTest.php" afterPath="$PROJECT_DIR$/Tests/DiceRollerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-    </list>
+    <list default="true" id="daf391bf-cd82-46f1-b8fa-53fa420e84db" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,40 +19,28 @@
       <file leaf-file-name="DiceRoller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DiceRoller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="289">
+              <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiceRollerTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DiceRollerTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/DiceRollerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-              <folding>
-                <element signature="e#108#127#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCase.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35598">
-              <caret line="2109" column="23" lean-forward="false" selection-start-line="2109" selection-start-column="23" selection-end-line="2109" selection-end-column="23" />
+            <state relative-caret-position="-429">
+              <caret line="54" column="83" lean-forward="false" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -83,7 +66,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
@@ -115,10 +98,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -135,7 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,13 +146,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/PHP5/php.exe" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="last_opened_file_path" value="D:/php/phpunit.phar" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,25 +167,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.DiceRollerTest.testNDiceReturnNResults">
+  <component name="RunManager" selected="PHPUnit.DiceRollerTest">
     <configuration default="false" name="DiceRollerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="DiceRollerTest" file="$PROJECT_DIR$/Tests/DiceRollerTest.php" scope="Class" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DiceRollerTest.testRollingAd6ReturnsCorrectValues" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="DiceRollerTest" file="$PROJECT_DIR$/Tests/DiceRollerTest.php" method="testRollingAd6ReturnsCorrectValues" scope="Method" />
       <method />
     </configuration>
     <configuration default="false" name="DiceRollerTest.testNDiceReturnNResults" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="DiceRollerTest" file="$PROJECT_DIR$/Tests/DiceRollerTest.php" method="testNDiceReturnNResults" scope="Method" />
       <method />
     </configuration>
-    <configuration default="false" name="AssociativeArrayTest.testAssociativeArraysGeneratedOnStandardKeys" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="AssociativeArrayTest" file="$PROJECT_DIR$/vendor/giorgiosironi/eris/examples/AssociativeArrayTest.php" method="testAssociativeArraysGeneratedOnStandardKeys" scope="Method" />
-      <method />
-    </configuration>
     <configuration default="false" name="DiceRollerTest.testRollingADieReturnsValuesWithinLimits" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="DiceRollerTest" file="$PROJECT_DIR$/Tests/DiceRollerTest.php" method="testRollingADieReturnsValuesWithinLimits" scope="Method" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DiceRoller.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/DiceRoller.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="DiceRollerTest.testPropertyRollingADieReturnsValuesWithinLimits" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="DiceRollerTest" file="$PROJECT_DIR$/Tests/DiceRollerTest.php" method="testPropertyRollingADieReturnsValuesWithinLimits" scope="Method" />
       <method />
     </configuration>
     <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
@@ -274,18 +256,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest" />
-      <item index="1" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest.testRollingAd6ReturnsCorrectValues" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest.testNDiceReturnNResults" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.AssociativeArrayTest.testAssociativeArraysGeneratedOnStandardKeys" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest.testRollingADieReturnsValuesWithinLimits" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest.testNDiceReturnNResults" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest.testRollingADieReturnsValuesWithinLimits" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.DiceRoller.php" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest.testPropertyRollingADieReturnsValuesWithinLimits" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest.testNDiceReturnNResults" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest.testRollingADieReturnsValuesWithinLimits" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.AssociativeArrayTest.testAssociativeArraysGeneratedOnStandardKeys" />
-        <item index="4" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest.testRollingAd6ReturnsCorrectValues" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest.testPropertyRollingADieReturnsValuesWithinLimits" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.DiceRoller.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest.testNDiceReturnNResults" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.DiceRollerTest.testRollingADieReturnsValuesWithinLimits" />
       </list>
     </recent_temporary>
   </component>
@@ -302,54 +284,56 @@
       <workItem from="1493062640555" duration="4432000" />
       <workItem from="1493098928114" duration="6468000" />
       <workItem from="1493107945345" duration="952000" />
+      <workItem from="1493145190175" duration="3765000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DiceRollerTest - 2017.04.25 at 10h 02m 29s.xml">
+    <history-entry file="DiceRollerTest - 2017.04.25 at 21h 07m 53s.xml">
       <configuration name="DiceRollerTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DiceRollerTest - 2017.04.25 at 10h 02m 48s.xml">
+    <history-entry file="DiceRollerTest - 2017.04.25 at 21h 09m 27s.xml">
       <configuration name="DiceRollerTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DiceRollerTest - 2017.04.25 at 10h 12m 42s.xml">
+    <history-entry file="DiceRollerTest - 2017.04.25 at 21h 10m 28s.xml">
       <configuration name="DiceRollerTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DiceRollerTest - 2017.04.25 at 10h 13m 11s.xml">
+    <history-entry file="DiceRollerTest - 2017.04.25 at 21h 12m 48s.xml">
       <configuration name="DiceRollerTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DiceRollerTest - 2017.04.25 at 10h 17m 43s.xml">
+    <history-entry file="DiceRollerTest - 2017.04.25 at 21h 14m 10s.xml">
       <configuration name="DiceRollerTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DiceRollerTest - 2017.04.25 at 10h 21m 51s.xml">
+    <history-entry file="DiceRollerTest - 2017.04.25 at 21h 19m 47s.xml">
       <configuration name="DiceRollerTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DiceRollerTest - 2017.04.25 at 10h 22m 52s.xml">
+    <history-entry file="DiceRollerTest - 2017.04.25 at 21h 28m 46s.xml">
       <configuration name="DiceRollerTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DiceRollerTest - 2017.04.25 at 10h 23m 11s.xml">
+    <history-entry file="DiceRollerTest - 2017.04.25 at 21h 37m 41s.xml">
       <configuration name="DiceRollerTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DiceRollerTest_testNDiceReturnNResults - 2017.04.25 at 10h 23m 36s.xml">
-      <configuration name="DiceRollerTest.testNDiceReturnNResults" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="DiceRollerTest - 2017.04.25 at 21h 38m 12s.xml">
+      <configuration name="DiceRollerTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DiceRollerTest_testRollingADieReturnsValuesWithinLimits - 2017.04.25 at 10h 23m 27s.xml">
-      <configuration name="DiceRollerTest.testRollingADieReturnsValuesWithinLimits" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="DiceRollerTest_testPropertyRollingADieReturnsValuesWithinLimits - 2017.04.25 at 21h 28m 43s.xml">
+      <configuration name="DiceRollerTest.testPropertyRollingADieReturnsValuesWithinLimits" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11852000" />
+    <option name="totallyTimeSpent" value="15617000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21085595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3329776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -360,7 +344,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -371,10 +354,36 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DiceRoller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/DiceRollerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DiceRoller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -383,14 +392,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35853">
-          <caret line="2109" column="23" lean-forward="false" selection-start-line="2109" selection-start-column="23" selection-end-line="2109" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php" />
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -403,9 +405,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#108#127#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -421,9 +421,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding>
-            <element signature="e#108#127#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -435,43 +433,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/DiceRollerPropertyTest.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/giorgiosironi/eris/examples/AssociativeArrayTest.php" />
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35598">
-          <caret line="2109" column="23" lean-forward="false" selection-start-line="2109" selection-start-column="23" selection-end-line="2109" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/giorgiosironi/eris/examples/AssociativeArrayTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DiceRoller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/DiceRollerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="32" column="51" lean-forward="false" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-          <folding>
-            <element signature="e#108#127#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="-429">
+          <caret line="54" column="83" lean-forward="false" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
           <folding />
         </state>
       </provider>
