@@ -16,11 +16,14 @@ class DiceRollerTest extends TestCase
         $this->diceroller = new DiceRoller;
     }
 
-    function testRollReturnsEmptyArray(){
+    function testInvalidRollInputReturnsEmptyArray(){
         $this->assertEquals([], $this->diceroller->rollToArray());
+        $this->assertEquals([], $this->diceroller->rollToArray('invalid'));
+        $this->assertEquals([], $this->diceroller->rollToArray('d3'));
+        $this->assertEquals([], $this->diceroller->rollToArray('3d'));
     }
 
-    function testRollReturnsValueHigherThan0(){
+    function testRollReturnsValueHigherThanZero(){
         $this->assertGreaterThan(0, $this->diceroller->rollToArray('1d6')[0]);
     }
 
@@ -48,14 +51,16 @@ class DiceRollerTest extends TestCase
             });
     }
 
-    function testTotalEmptyReturnsZero(){
+    function testInvalidTotalInputReturnsZero(){
         $this->assertEquals(0, $this->diceroller->total());
+        $this->assertEquals(0, $this->diceroller->total('d3'));
+        $this->assertEquals(0, $this->diceroller->total('3d'));
     }
 
     function testTotalSumNumbers(){
-        $this->assertEquals(4, $this->diceroller->total("1+3"));
-        $this->assertEquals(6, $this->diceroller->total("1+3+2"));
-        $this->assertEquals(8, $this->diceroller->total("6-1+3"));
+        $this->assertEquals(4, $this->diceroller->total('1+3'));
+        $this->assertEquals(6, $this->diceroller->total('1+3+2'));
+        $this->assertEquals(8, $this->diceroller->total('6-1+3'));
     }
 
     function testTotalSumDice(){
@@ -72,9 +77,9 @@ class DiceRollerTest extends TestCase
             }
         };
 
-        $commandResultsBetween("1d6+3", 1, 9);
-        $commandResultsBetween("1d3+3+1d2", 5, 8);
-        $commandResultsBetween("6d4-1", 0, 35);
+        $commandResultsBetween('1d6+3', 1, 9);
+        $commandResultsBetween('1d3+3+1d2', 5, 8);
+        $commandResultsBetween('6d4-1', 0, 35);
     }
 
     function testPropertyTotalIsCommutative(){
