@@ -32,8 +32,8 @@ class DiceRollerTest extends TestCase
                 $this->assertThat(
                     $this->diceroller->roll("1d{$n}")[0],
                     $this->logicalAnd(
-                        $this->greaterThan(0),
-                        $this->lessThan($n+1)
+                        $this->greaterThanOrEqual(1),
+                        $this->lessThanOrEqual($n)
                     )
                 );
             });
